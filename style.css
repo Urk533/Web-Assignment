@@ -1,19 +1,24 @@
 /* This is CSS for index.html file */
 #home-pg{                    
 	margin: 0px;
-	background-image: url(https://us.123rf.com/450wm/kritchanut/kritchanut1506/kritchanut150600270/41302990-light-blue-abstract-background-with-radial-gradient-effect.jpg?ver=6); 
+	background-image: url(https://us.123rf.com/450wm/kritchanut/kritchanut1506/kritchanut150600270/41302990-light-blue-abstract-background-with-radial-gradient-effect.jpg?ver=6);
+	/* (123RF, 2021) */
 	background-repeat: no-repeat;
 	background-size: cover;
     background-position: center;
 }
 #introduce{
-	color: #000000;
+	color: #f11212;
 	font-size: 50px;
 	padding: 60px 0px 0px 465px;
 	font-family: Georgia, Calson, "Times New Roman", serif;
-    /*text-shadow: 3px 3px;*/
-
 }
+@media only screen and (max-width: 480px){
+	#introduce{
+		font-size: 42px;
+	}
+}
+
 #bio{
 	font-family: Calson, Georgia, "Times New Roman", serif;
 	width: 650px;
@@ -21,65 +26,80 @@
     line-height: 34px;
     padding: 30px 0px 40px 460px;
     letter-spacing: 1.3px;
-    color: black;
+    color: #520551;
+}
+@media only screen and (max-width: 480px) {
+        #bio{
+		font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        width: 500px;
+	}
 }
 .my-lists .lists a{
-    /*position: relative;
-    bottom: 795px;
-    right: 25px;*/
     font-size: 20px;
     color: #000000;
     text-decoration: none;
-	padding: 400px 5px 20px 0px;
-	/*border: 1.5px solid #000000;
+	padding: 3px 5px 5px 3px;
+	border: 1.5px solid #000000;
     transition: color 0.5s ease, background-color 0.5s ease;
-    animation-name: example;
-	animation-duration: 2s;
-    display: grid;
-    grid-template-columns: 5px 5px;
-    grid-template-rows: 4px  4px;*/
+    animation-name: example-1;
+	animation-duration: 0.5s;
+    position: relative;
+    right: 30px;
+    top: 40px;
+}
+@media only screen and (max-width:480px){
+	.my-lists .lists a{
+		font-size: 18px;
+	}
+}
+@keyframes example-1{
+   from{font-size: 20px}
+    to{font-size: 12px}
 }
 .my-lists .lists{
     list-style-type: none;
 }
-/*.my-lists a:hover{
+.my-lists a:hover{
     color: white;
     background-color: black;
-}*/
+}
 .link-1 a{
     padding: 4px 5px 5px 5px;
-	/*position: relative;
-	bottom: 20px;
-	top: 860px;
-	right: 110px;*/
 	font-size: 20px;
 	color: #000000;
-	/*float: right;*/
 	text-decoration: none;
-	/*border: 1.5px solid #000000;*/
+	border: 1.5px solid #000000;
 	margin: 5px 5px 5px 5px;
-	/*transition: color 0.7s ease, background-color 0.5s ease;
-	animation-name: example;
-	animation-duration: 4.2s;*/
-	display: grid;
-	grid-template-columns: 20px 20px;
-	grid-column: 1/2;
-	grid-gap: 1px;
+	transition: color 0.7s ease, background-color 0.5s ease;
+	animation-name: example-2;
+	animation-duration: 0.7s;
+	position: relative;
+	bottom: 0px;
+	float: right;
+	left: 90px;
 }
-/*@keyframes example{
+@media only screen and (max-width: 480px){
+	.link-1 a{
+		font-size: 18px;
+	}
+}
+@keyframes example-2{
     from{font-size: 20px}
-    to{font-size: 25px}
+    to{font-size: 12px}
 }
-/*.link-1 a:hover{
+.link-1 a:hover{
 	color: white;
 	background-color: black;
-}*/
+}
 #l-page{
-	/*position: relative;
-	top: 790px;
+	position: relative;
 	float: right;
-	right: 450px;*/
-    margin: 25px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    bottom: 45px;
+    right: 250px;
+    color: #201c1e;
 }
 
 
