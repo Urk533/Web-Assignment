@@ -103,3 +103,72 @@
 }
 
 
+
+
+
+
+/*This CSS for portfolio.html*/
+#port-pg{
+	background-color: #e4e4cf;
+    overflow-x: hidden;
+}
+.navbar .nav-b{
+	float: right;
+	text-decoration: none;
+	padding: 0px 5px 0px 5px;
+	color: black;
+	/*background: red;*/
+	/*border: 1.3px solid black;*/
+	margin: /*0px 5px 0px 5px*/auto;
+	font-size: 20px;
+	/*font-family: Calson, "Times New Roman", Georgia, serif;*/
+
+}
+.urk .l-head{
+	position: relative;
+	top: 90px;
+    right: -530px;
+	font-family: copperplate, fantasy;
+    
+}
+.hobbys .hobby{
+	position: relative;
+	top: 100px;
+	right: -340px;
+	font-size: 20px;
+}
+.skills .m-skills{
+	position: relative;
+	top: 120px;
+	right: -655px;
+	font-family: copperplate, fantasy; 
+}
+.futball .f-ball{
+	position: relative;
+	top: 270px;
+	right: -555px;
+	font-family: copperplate, fantasy;
+}
+.deball .d-ball{
+	position: relative;
+	top: 270px;
+	width: 300px;
+	right: -440px;
+
+}
+.pubspeak .speak{
+    float: right;
+    position: relative;
+    right: 340px;
+    top: 30px;
+    font-family: copperplate, fantasy;
+	
+}
+.despeak .d-speak{
+	position: relative;
+	width: 300px;
+	float: right;
+	right: 100px;
+	top: 70px;
+
+}
