@@ -354,3 +354,238 @@
 		font-size: 18px;
 	}
 }
+
+
+
+
+
+
+/*CSS for cv.html starts from here*/
+#cv-pg{
+	margin: 0px;
+	padding: 0px;
+	background-color: #b3c2b3;
+	overflow-x: hidden;
+	background-color: #27ecb0;
+
+}
+.na-cv .na-cv1{
+    float: right;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+	color: #000000;
+	margin: 20px 20px 20px 0px;
+	font-size: 20px;
+	border: 1.3px solid black;
+
+}
+.na-cv .na-cv1:hover{
+   background-color: white ;
+}
+.urk-ms .urkh{
+    font-size: 50px;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 0px 0px 0px;
+    position: relative;
+    top: 65px;
+    font-family: fantasy;
+}
+.urk-ms .wb-ms{
+   position: relative;
+   top: 94px;
+   margin: 0px 0px 0px 10px;
+   left: 145px;
+   text-decoration-line: underline;
+   font-size: 18.4px;
+   font-family: arial, sans-serif;
+}
+.s-info{
+   width: 800px;
+   position: relative;
+   left: 610px;
+   bottom: 5px;
+   font-size: 20px;
+   font-family: arial, sans-serif;
+}
+.picv h3{
+   font-size: 27px;
+   margin: 0px 0px 0px 10px;
+   font-family: fixed, monospace;
+}
+.picv .pi-li{
+   font-size: 20px;
+   width: 450px;
+   position: relative;
+   bottom: 12px;
+   font-family: arial, sans-serif;
+}
+.lang h3{
+   font-size: 27px;
+   margin: 0px 0px 0px 10px;
+   font-family: fixed, monospace;
+}
+.lang .lang-li{
+   font-size: 20px;
+   position: relative;
+   bottom: 12px;
+   font-family: arial, sans-serif;
+}
+.sokills h3{
+   font-size: 27px;
+   margin: 0px 0px 0px 10px;
+   font-family: fixed, monospace;
+}
+.sokills .sokills-li{
+   font-size: 20px;
+    position: relative;
+    bottom: 12px;
+    font-family: arial, sans-serif;
+}
+.hakills h3{
+   font-size: 27px;
+   margin: 0px 0px 0px 10px;
+   font-family: fixed, monospace;
+}
+.hakills .hakills-li{
+   font-size: 20px;
+   position: relative;
+   bottom: 12px;
+   font-family: arial, sans-serif;
+}
+.exp-3, .mcel-li, .dmarkt-li, .pmger-li{
+   width: 800px;
+   float: left;
+}
+.expce{
+	position: relative;
+	bottom: 1165px;
+	left: 545px;
+	font-size: 27px;
+	font-family: fixed, monospace;
+}
+.mcel{
+	position: relative;
+	left: 655px;
+	bottom: 1170px;
+	font-size: 23px;
+	text-decoration-line: underline;
+	font-family: florence, cursive;
+}
+.mcel-li{
+	position: relative;
+	left: 655px;
+	bottom: 1200px;
+	font-size: 20px;
+	line-height: 26px;
+	font-family: arial, sans-serif;
+}
+.dmarkt{
+	position: relative;
+	bottom: 870px;
+	right: 175px;
+	font-size: 23px;
+	text-decoration-line: underline;
+	font-family: florence, cursive;
+}
+.dmarkt-li{
+	position: relative;
+	bottom: 1150px;
+	left: 665px;
+	font-size: 20px;
+	line-height: 26px;
+	font-family: arial, sans-serif;
+}
+.pmger{
+   position: relative;
+   bottom: 570px;
+   right: 170px;
+   font-size: 23px;
+   text-decoration-line: under-line;
+   font-family: florence, cursive;
+} 
+.pmger-li{
+	position: relative;
+	bottom: 1110px;
+    left: 670px;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: arial, sans-serif;
+}
+.edun{
+   width: 800px;
+   float: left;
+}
+.edun-h3{
+   position: relative;
+   bottom: 1120px;
+   left: 600px;
+   font-size: 27px;
+   font-family: fixed, monospace;
+}
+.edun-li{
+	position: relative;
+	bottom: 1130px;
+	left: 673px;
+   font-size: 20px;
+   line-height: 26pxs;
+   font-family: arial, sans-serif;
+}
+.exed{
+   width: 800px;
+   float: left;
+}
+.exed-h3{
+   position: relative;
+   bottom: 1140px;
+   left: 540px;
+   font-size: 27px;
+   font-family: fixed, monospace;
+}
+.exed-li{
+   position: relative;
+   bottom: 1150px;
+   left: 680px;
+   font-size: 20px;
+   line-height: 26px;
+   font-family: arial, sans-serif;
+}
+.cert{
+   width: 800px;
+   float: left;
+}
+.certi-h3{
+   position: relative;
+   top: 140px;
+   font-size: 27px;
+   font-family: fixed, monospace;
+   right: 230px;
+}
+.certi-li{
+	position: relative;
+   top: 130px;
+   font-size: 20px;
+   right: 100px;
+   line-height: 26px;
+   font-family: arial, sans-serif;
+}
+
+.inter{
+   width: 800px;
+   float: left;
+}
+.inter-h3{
+   position: relative;
+   bottom: 925px;
+   font-size: 27px;
+   font-family: fixed, monospace;
+   left: 660px;
+}
+.inter-li{
+	position: relative;
+	bottom: 940px;
+	left: 705px;
+	font-size: 20px;
+	line-height: 26px;
+	font-family: arial, sans-serif;
+}
+
