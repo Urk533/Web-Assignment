@@ -435,7 +435,7 @@
    color: #e70707;
    text-shadow: 2px 2px #eee3e3;
 }
-.picv .pi-li{
+.picv .pi-lt{
    font-size: 20px;
    width: 450px;
    position: relative;
@@ -449,7 +449,7 @@
    color: #e70707;
    text-shadow: 2px 2px #eee3e3;
 }
-.lang .lang-li{
+.lang .lang-lt{
    font-size: 20px;
    position: relative;
    bottom: 12px;
@@ -462,7 +462,7 @@
    color: #e70707;
    text-shadow: 2px 2px #eee3e3;
 }
-.sokills .sokills-li{
+.sokills .sokills-lt{
    font-size: 20px;
     position: relative;
     bottom: 12px;
@@ -475,7 +475,7 @@
    color: #e70707;
    text-shadow: 2px 2px #eee3e3;
 }
-.hakills .hakills-li{
+.hakills .hakills-lt{
    font-size: 20px;
    position: relative;
    bottom: 12px;
@@ -503,26 +503,26 @@
 	font-family: florence, cursive;
 	color: #0820ee;
 }
-.mcel-li{
+.mcel-lt{
 	position: relative;
 	left: 655px;
-	bottom: 1200px;
+	bottom: 1180px;
 	font-size: 20px;
 	line-height: 26px;
 	font-family: arial, sans-serif;
 }
 .dmarkt{
 	position: relative;
-	bottom: 870px;
-	right: 175px;
+	bottom: 1170px;
+	left: 655px;
 	font-size: 23px;
 	text-decoration-line: underline;
 	font-family: florence, cursive;
 	color: #0820ee;
 }
-.dmarkt-li{
+.dmarkt-lt{
 	position: relative;
-	bottom: 1150px;
+	bottom: 1180px;
 	left: 665px;
 	font-size: 20px;
 	line-height: 26px;
@@ -530,16 +530,16 @@
 }
 .pmger{
    position: relative;
-   bottom: 570px;
-   right: 170px;
+   bottom: 1175px;
+   left: 670px;
    font-size: 23px;
    text-decoration-line: underline;
    font-family: florence, cursive;
    color: #0820ee;
 } 
-.pmger-li{
+.pmger-lt{
 	position: relative;
-	bottom: 1110px;
+	bottom: 1180px;
     left: 670px;
     font-size: 20px;
     line-height: 26px;
@@ -549,62 +549,62 @@
    width: 800px;
    float: left;
 }
-.edun-h3{
+.edun-s3{
    position: relative;
-   bottom: 1120px;
+   bottom: 1190px;
    left: 600px;
    font-size: 27px;
    font-family: fixed, monospace;
    color: #e70707;
    text-shadow: 2px 2px #eee3e3;
 }
-.edun-li{
+.edun-lt{
 	position: relative;
-	bottom: 1130px;
+	bottom: 1200px;
 	left: 673px;
    font-size: 20px;
-   line-height: 26pxs;
+   line-height: 26px;
    font-family: arial, sans-serif;
 }
 .exed{
    width: 800px;
    float: left;
 }
-.exed-h3{
+.exed-s3{
    position: relative;
-   bottom: 1140px;
-   left: 540px;
+   bottom: 1210px;
+   left: 520px;
    font-size: 27px;
    font-family: fixed, monospace;
    color: #e70707;
    text-shadow: 2px 2px #eee3e3;
 }
-.exed-li{
+.exed-lt{
    position: relative;
-   bottom: 1150px;
+   bottom: 1220px;
    left: 680px;
    font-size: 20px;
    line-height: 26px;
    font-family: arial, sans-serif;
 }
-.cert{
+.certi{
    width: 800px;
    float: left;
 }
-.certi-h3{
+.certi-s3{
    position: relative;
-   top: 140px;
+   bottom: 1230px;
    font-size: 27px;
    font-family: fixed, monospace;
-   right: 230px;
+   left: 565px;
    color: #e70707;
    text-shadow: 2px 2px #eee3e3;
 }
-.certi-li{
+.certi-lt{
 	position: relative;
-   top: 130px;
+   bottom: 1240px;
    font-size: 20px;
-   right: 100px;
+   left: 680px;
    line-height: 26px;
    font-family: arial, sans-serif;
 }
@@ -613,19 +613,19 @@
    width: 800px;
    float: left;
 }
-.inter-h3{
+.inter-s3{
    position: relative;
-   bottom: 925px;
+   bottom: 1250px;
    font-size: 27px;
    font-family: fixed, monospace;
-   left: 660px;
+   left: 630px;
    color: #e70707;
    text-shadow: 2px 2px #eee3e3;
 }
-.inter-li{
+.inter-lt{
 	position: relative;
-	bottom: 940px;
-	left: 705px;
+	bottom: 1265px;
+	left: 685px;
 	font-size: 20px;
 	line-height: 26px;
 	font-family: arial, sans-serif;
@@ -634,13 +634,13 @@
 	.urk-ms .wb-ms{
 		left: 90px;
 	}
-	.inter-h3{
+	.inter-s3{
 		bottom: 925px;
 	}
-	.inter-li{
+	.inter-lt{
 		bottom: 940px;
 	}
-	.certi-li{
+	.certi-lt{
 		bottom: 600px;
 		left: 630px;
 	}
