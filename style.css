@@ -12,11 +12,17 @@
 	font-size: 50px;
 	padding: 60px 0px 0px 465px;
 	font-family: Georgia, Calson, "Times New Roman", serif;
+	animation-name: ani-intro;
+	animation-duration: 1s;
 }
 @media only screen and (max-width: 480px){
 	#introduce{
 		font-size: 42px;
 	}
+}
+@keyframes ani-intro{
+	from{font-size: 32px}
+	to{font-size: 50px}
 }
 
 #bio{
@@ -40,11 +46,9 @@
     font-size: 20px;
     color: #000000;
     text-decoration: none;
-	padding: 3px 5px 5px 3px;
 	border: 1.5px solid #000000;
-    transition: color 0.5s ease, background-color 0.5s ease;
     animation-name: example-1;
-	animation-duration: 0.5s;
+	animation-duration: 1s;
     position: relative;
     right: 30px;
     top: 40px;
@@ -55,11 +59,14 @@
 	}
 }
 @keyframes example-1{
-   from{font-size: 20px}
-    to{font-size: 12px}
+   from{font-size: 8px}
+    to{font-size: 20px}
 }
 .my-lists .lists{
     list-style-type: none;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 15px 0px 15px;
+
 }
 .my-lists a:hover{
     color: white;
@@ -72,9 +79,6 @@
 	text-decoration: none;
 	border: 1.5px solid #000000;
 	margin: 5px 5px 5px 5px;
-	transition: color 0.7s ease, background-color 0.5s ease;
-	animation-name: example-2;
-	animation-duration: 0.7s;
 	position: relative;
 	bottom: 0px;
 	float: right;
@@ -84,10 +88,6 @@
 	.link-1 a{
 		font-size: 18px;
 	}
-}
-@keyframes example-2{
-    from{font-size: 20px}
-    to{font-size: 12px}
 }
 .link-1 a:hover{
 	color: white;
