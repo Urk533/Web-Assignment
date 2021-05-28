@@ -249,8 +249,8 @@
 /*CSS for contact.html starts from here*/
 #contact-pg{
 	margin: 0px;
-	overflow: visible;
-	background: url(https://cmaquaticcentre.com.au/storage/Pictures/contact_us_2.jpg);
+	overflow-x: hidden;
+	background: url(https://st.depositphotos.com/1265075/2916/i/950/depositphotos_29165825-stock-photo-website-contact-us-icons-on.jpg);
 	/*(depositphotos, 2021)*/
     background-repeat: no-repeat;
     background-position: center;
@@ -262,7 +262,7 @@
 	text-decoration: none;
 	padding: 0px 5px 0px 5px;
 	color: #000000;
-	margin: 0px 5px 0px 5px;
+	margin: 10px 5px 0px 10px;
 	font-size: 20px;
 	border: 1.7px solid black;
 	animation-duration: 1.3s;
@@ -273,7 +273,7 @@
 	to{font-size: 20px}
 }
 .nav-con .nav-c:hover{
-    background-color: #000000;
+    background-color: blue;
     color: white;
  
 }
@@ -286,7 +286,6 @@
     font-size: 40px;
     font-family: lucida, sans-serif;
     color: #ff0000;
-    text-shadow: 2px 2px yellow;
     animation-name: no-ani;
     animation-duration: 1.3s;
 }
@@ -300,7 +299,7 @@
 	display: flex;
 	justify-content: center;
 	position: relative;
-	top: 20px;
+	top: 0px;
     left: 490px;
     border: 2px solid black;
     width: 500px;
@@ -313,6 +312,9 @@
 }
 .ucon li{
     list-style-type: none;
+    margin: 15px 0px 0px 0px;
+    position: relative;
+    bottom: 10px;
 }
 .yach-3{
 	position: relative;
@@ -323,7 +325,6 @@
 	font-family: lucida, sans-serif;
 	color: #ff0000;
 	text-decoration: underline;
-	text-shadow: 1.3px 1.3px yellow;
 	transform: skewX(10deg);
 	animation-name: yach-ani;
 	animation-duration: 1.3;
