@@ -642,9 +642,529 @@
 		bottom: 600px;
 		left: 630px;
 	}
+}
 /*(Zety, 2021)*/
 
 
 
 
-/*CSS for site-report.html starts here*/
+
+
+
+
+
+
+/*This is CSS for site-report.html*/
+#site-boy{
+	background-color: #f8cad2;
+	margin: 0px;
+}
+.site-nav{
+	float: right;
+}
+.site-nav .site-nav1{
+	text-decoration: none;
+	font-size: 20px;
+	color: #000000;
+	margin: 0px 5px 0px 5px;
+	border: 1.4px solid black;
+	padding: 1px 5px 1px 5px;
+}
+.site-nav .site-nav1:hover{
+   background-color: #000000;
+   color: #FFFFFF;
+   transition: 0.7s ease;
+}
+.moex{
+   width: 800px;
+}
+.moex .moex-hd{
+   position: relative;
+   left: 370px;
+   top: 0px;
+   font-size: 27px;
+}
+.moex .moex-par{
+	position: relative;
+	left: 370px;
+	top: 0px;
+	font-size: 20px;
+}
+.mysde{
+   width: 800px;
+   
+
+}
+.mysde-hd{
+   position: relative;
+   left: 370px;
+   font-size: 27px;
+  
+}
+.mysde-par{
+   position: relative;
+   left: 370px;
+   font-size: 20px;
+}
+.mysde-uli{
+   position: relative;
+   left: 345px;
+   font-size: 20px;
+}
+.hp-site{
+   width: 800px;
+}
+.hp-hd{
+   position: relative;
+   left: 695px;
+   font-size: 27px;
+}
+.hp-par{
+    position: relative;
+   left: 370px;
+   font-size: 20px;
+}
+.hp-hd4{
+    position: relative;
+   left: 370px;
+   font-size: 22px;
+}
+.hp-img{
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+   flex-wrap: wrap;
+}
+.inpr-1{
+	position: relative;
+	left: 210px;
+   bottom: 20px;
+}
+.inpr-3{
+    position: relative;
+	left: 210px;
+   top: 10px;
+}
+.inpr-2{
+position: relative;
+	left: 300px;
+   bottom: 20px;
+}
+ .inpr-4{
+   position: relative;
+	left: 300px;
+	top: 10px;
+}
+.hp-sd4{
+position: relative;
+left: 375px;
+font-size: 22px;
+}
+.hp-ss{
+width: 1000px;
+display: flex;
+}
+.inva{
+   position: relative;
+   left: 50px;
+}
+.incss{
+  position: relative;
+  left: 470px;
+}
+.pf-site{
+  width: 800px;
+}
+.pf-hd{
+  position: relative;
+  left: 405px;
+  font-size: 27px;
+}
+.pf-par{
+   position: relative;
+  left: 400px;
+  font-size: 20px;
+}
+.pf-hd4{
+ position: relative;
+ left: 400px;
+ bottom: 30px;
+ font-size: 22px;
+}
+.pf-img{
+width: 1000px;
+display: flex;
+flex-wrap: wrap;
+}
+.popr-1{
+  position: relative;
+  bottom: 30px;
+  left: 210px;
+}
+.popr-2{
+ position: relative;
+ left: 300px;
+ bottom: 30px;
+}
+.popr-3{
+ position: relative;
+ left: 210px;
+ bottom: 10px;
+}
+.popr-4{
+ position: relative;
+ left: 300px;
+ bottom: 10px;
+}
+.popr-5{
+ position: relative;
+ left: 500px;
+ top: 10px;
+}
+.pf-sd4{
+  position: relative;
+  left: 380px;
+  font-size: 22px;
+}
+.pf-ss{
+width: 1000px;
+display: flex;
+}
+.pova{
+  position: relative;
+   left: 50px;
+}
+.pocss{
+	position: relative;
+  left: 470px;
+
+}
+.cp-site{
+width: 800px;
+}
+.cp-hd{
+position: relative;
+left: 405px;
+font-size: 27px;
+}
+.cp-par{
+position: relative;
+left: 400px;
+font-size: 20px;
+}
+.cp-hd4{
+position: relative;
+left: 400px;
+font-size: 22px;
+bottom: 20px;
+}
+.cp-img{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.conpr-1{
+  position: relative;
+	left: 210px;
+   bottom: 30px;
+
+}
+.conpr-2{
+   position: relative;
+	left: 300px;
+   bottom: 30px;
+}
+.conpr-3{
+  position: relative;
+	left: 210px;
+   bottom: 10px;
+
+}
+.conpr-4{
+  position: relative;
+	left: 300px;
+   bottom: 10px;
+}
+.cp-sd4{
+   position: relative;
+  left: 380px;
+  font-size: 22px;  
+}
+.cp-ss{
+  width: 1000px;
+  display: flex;
+}
+.conva{
+  position: relative;
+   left: 50px;
+}
+.concss{
+	position: relative;
+  left: 470px;
+
+}
+.cv-site{
+width: 800px;
+}
+.cv-hd{
+position: relative;
+left: 405px;
+font-size: 27px;
+}
+.cv-par{
+  position: relative;
+left: 400px;
+font-size: 20px;
+}
+.cv-hd4{
+  position: relative;
+  left: 400px;
+  font-size: 20px;
+  bottom: 20px;
+}
+.cv-img{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cvpr-1{
+  position: relative;
+	left: 210px;
+   bottom: 30px;
+
+}
+.cvpr-2{
+   position: relative;
+	left: 300px;
+   bottom: 30px;
+}
+.cvpr-3{
+ position: relative;
+	left: 210px;
+	bottom: 10px;
+}
+.cvpr-4{
+position: relative;
+	left: 300px;
+	bottom: 10px;
+}
+.cvpr-5{
+   position: relative;
+	left: 210px;
+	top: 10px;
+}
+.cvpr-6{
+  position: relative;
+	left: 300px;
+	top: 10px;
+}
+.cv-sd4{
+   position: relative;
+   left: 380px;
+   font-size: 22px; 
+}
+.cv-ss{
+  width: 1000px;
+  display: flex;
+}
+.cv-val{
+    position: relative;
+   left: 50px;
+}
+.cvcss{
+ position: relative;
+  left: 470px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
