@@ -2,7 +2,7 @@
 #home-pg{                    
 	margin: 0px;
 	background-image: url(https://us.123rf.com/450wm/kritchanut/kritchanut1506/kritchanut150600270/41302990-light-blue-abstract-background-with-radial-gradient-effect.jpg?ver=6);
-	 /*(123RF, 2021) */
+	 /*(Kritchanut, n.d.) */
 	background-repeat: no-repeat;
 	background-size: cover;
     background-position: center;
@@ -71,6 +71,7 @@
 .my-lists a:hover{
     color: white;
     background-color: black;
+    transition: 0.7s ease;
 }
 .link-1 a{
     padding: 4px 5px 5px 5px;
@@ -80,7 +81,7 @@
 	border: 1.5px solid #000000;
 	margin: 5px 5px 5px 5px;
 	position: relative;
-	bottom: 0px;
+	bottom: 15px;
 	float: right;
 	left: 90px;
 }
@@ -92,12 +93,13 @@
 .link-1 a:hover{
 	color: white;
 	background-color: black;
+	transition: 0.7s;
 }
 #l-page{
 	position: relative;
 	float: right;
     margin: 5px 5px 5px 5px;
-    bottom: 45px;
+    bottom: 50px;
     right: 250px;
     color: #201c1e;
 }
@@ -130,6 +132,7 @@
 }
 .navbar .nav-b:hover{
 	background-color: white;
+	transition: 0.7s ease;
 }
 .urk .l-head{
 	position: relative;
@@ -251,7 +254,7 @@
 	margin: 0px;
 	overflow-x: hidden;
 	background: url(https://st.depositphotos.com/1265075/2916/i/950/depositphotos_29165825-stock-photo-website-contact-us-icons-on.jpg);
-	/*(depositphotos, 2021)*/
+	/*(NiroDesign, 2013)*/
    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -275,6 +278,7 @@
 .nav-con .nav-c:hover{
     background-color: blue;
     color: white;
+    transition: 0.7s ease;
  
 }
 .no{
@@ -381,6 +385,7 @@
 }
 .na-cv .na-cv1:hover{
    background-color: white ;
+   transition: 0.7s ease;
 }
 .urk-ms .urkh{
     font-size: 50px;
@@ -643,7 +648,7 @@
 		left: 630px;
 	}
 }
-/*(Zety, 2021)*/
+/*(Tomaszewski, n.d.)*/
 
 
 
@@ -665,14 +670,15 @@
 .site-nav .site-nav1{
 	text-decoration: none;
 	font-size: 20px;
-	color: #000000;
+	color: #290b7d;
 	margin: 0px 5px 0px 5px;
-	border: 1.4px solid black;
+	border: 2px solid #000000;
 	padding: 1px 5px 1px 5px;
+   font-family: "new century schoolbook", serif;
 }
 .site-nav .site-nav1:hover{
-   background-color: #000000;
-   color: #FFFFFF;
+   background-color: #22bb0a;
+   color: yellow;
    transition: 0.7s ease;
 }
 .moex{
@@ -682,52 +688,88 @@
    position: relative;
    left: 370px;
    top: 0px;
-   font-size: 27px;
+   font-size: 32px;
+   font-family: "andale mono", monospace;
+   color: #22bb0a;
+   animation-name: moex-ani;
+   animation-duration: 1.2s;
+   text-shadow: 2px 2px yellow;
+}
+@keyframes moex-ani{
+	0%{color: red;}
+	25%{color: yellow;}
+	75%{color: blue;}
+	100%{color: green;}
 }
 .moex .moex-par{
 	position: relative;
 	left: 370px;
 	top: 0px;
 	font-size: 20px;
+	font-family: "new century schoolbook", serif;
+	line-height: 28px;
+	color: #290b7d;
+	animation-name: par-ani;
+   animation-duration: 1.2s;
+}
+@keyframes par-ani{
+	from{width: 500px}
+	to{width: 800px}
 }
 .mysde{
    width: 800px;
-   
-
 }
 .mysde-hd{
    position: relative;
    left: 370px;
-   font-size: 27px;
-  
+   font-size: 32px;
+  font-family: "andale mono", monospace;
+  color: #22bb0a;
+  text-shadow: 2px 2px yellow;
 }
 .mysde-par{
    position: relative;
    left: 370px;
    font-size: 20px;
+   font-family: "new century schoolbook", serif;
+   line-height: 28px;
+   color: #290b7d;
 }
 .mysde-uli{
    position: relative;
    left: 345px;
    font-size: 20px;
+   font-family: "new century schoolbook", serif;
+   line-height: 28px;
+   color: #290b7d;
 }
 .hp-site{
    width: 800px;
 }
 .hp-hd{
    position: relative;
-   left: 695px;
+   left: 375px;
    font-size: 27px;
+   font-family: "andale mono", monospace;
+   color: #22bb0a;
+   text-shadow: 2px 2px yellow;
 }
 .hp-par{
     position: relative;
    left: 370px;
    font-size: 20px;
+   font-family: "new century schoolbook", serif;
+   line-height: 28px;
+   color: #290b7d;
 }
 .hp-hd4{
     position: relative;
    left: 370px;
    font-size: 22px;
+   font-family: "courier new", monospace;
+   bottom: 20px;
+   text-decoration-line: underline;
+   color: #d11509;
 }
 .hp-img{
 	width: 1000px;
@@ -739,6 +781,7 @@
 	position: relative;
 	left: 210px;
    bottom: 20px;
+   font-family: "new century schoolbook", serif;
 }
 .inpr-3{
     position: relative;
@@ -749,6 +792,7 @@
 position: relative;
 	left: 300px;
    bottom: 20px;
+   font-family: "new century schoolbook", serif;
 }
  .inpr-4{
    position: relative;
@@ -759,6 +803,9 @@ position: relative;
 position: relative;
 left: 375px;
 font-size: 22px;
+font-family: "courier new", monospace;
+text-decoration-line: underline;
+color: #d11509;
 }
 .hp-ss{
 width: 1000px;
@@ -779,17 +826,26 @@ display: flex;
   position: relative;
   left: 405px;
   font-size: 27px;
+  font-family: "andale mono", monospace;
+  color: #22bb0a;
+  text-shadow: 2px 2px yellow;
 }
 .pf-par{
    position: relative;
   left: 400px;
   font-size: 20px;
+  font-family: "new century schoolbook", serif;
+  line-height: 28px;
+  color: #290b7d;
 }
 .pf-hd4{
  position: relative;
  left: 400px;
  bottom: 30px;
  font-size: 22px;
+ font-family: "courier new", monospace;
+ text-decoration-line: underline;
+ color: #d11509;
 }
 .pf-img{
 width: 1000px;
@@ -825,6 +881,9 @@ flex-wrap: wrap;
   position: relative;
   left: 380px;
   font-size: 22px;
+  font-family: "courier new", monospace;
+  text-decoration-line: underline;
+  color: #d11509;
 }
 .pf-ss{
 width: 1000px;
@@ -846,17 +905,27 @@ width: 800px;
 position: relative;
 left: 405px;
 font-size: 27px;
+font-family: "andale mono", monospace;
+color: #22bb0a;
+text-shadow: 2px 2px yellow;
 }
 .cp-par{
 position: relative;
 left: 400px;
 font-size: 20px;
+font-family: "new century schoolbook", serif;
+line-height: 28px;
+color: #290b7d;
 }
 .cp-hd4{
 position: relative;
 left: 400px;
 font-size: 22px;
 bottom: 20px;
+font-family: "courier new", monospace;
+text-decoration-line: underline;
+color: #d11509;
+text-shadow: 2px 2px yellow;
 }
 .cp-img{
   width: 1000px;
@@ -888,7 +957,10 @@ bottom: 20px;
 .cp-sd4{
    position: relative;
   left: 380px;
-  font-size: 22px;  
+  font-size: 22px; 
+  font-family: "courier new", monospace; 
+  text-decoration-line: underline;
+  color: #d11509;
 }
 .cp-ss{
   width: 1000px;
@@ -910,17 +982,27 @@ width: 800px;
 position: relative;
 left: 405px;
 font-size: 27px;
+font-family: "andale mono", monospace;
+color: #22bb0a;
+text-shadow: 2px 2px yellow;
 }
 .cv-par{
   position: relative;
 left: 400px;
 font-size: 20px;
+font-family: "new century schoolbook", serif;
+line-height: 28px;
+color: #290b7d;
 }
 .cv-hd4{
   position: relative;
   left: 400px;
   font-size: 20px;
   bottom: 20px;
+  font-family: "new century schoolbook", serif;
+  text-decoration-line: underline;
+  color: #d11509;
+  text-shadow: 2px 2px yellow;
 }
 .cv-img{
   width: 1000px;
@@ -962,6 +1044,9 @@ position: relative;
    position: relative;
    left: 380px;
    font-size: 22px; 
+   font-family: "courier new", monospace;
+   text-decoration-line: underline;
+   color: #d11509;
 }
 .cv-ss{
   width: 1000px;
@@ -970,13 +1055,20 @@ position: relative;
 .cv-val{
     position: relative;
    left: 50px;
+   bottom: 20px;
 }
 .cvcss{
  position: relative;
   left: 470px;
+  bottom: 20px;
 
 }
-
+@media only screen and (max-width: 1070px){
+	.na-cv .na-cv1{
+		position: relative;
+		left: 300px;
+	}
+}
 
 
 
