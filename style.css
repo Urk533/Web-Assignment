@@ -781,7 +781,6 @@
 	position: relative;
 	left: 210px;
    bottom: 20px;
-   font-family: "new century schoolbook", serif;
 }
 .inpr-3{
     position: relative;
@@ -792,7 +791,6 @@
 position: relative;
 	left: 300px;
    bottom: 20px;
-   font-family: "new century schoolbook", serif;
 }
  .inpr-4{
    position: relative;
@@ -828,7 +826,6 @@ display: flex;
   font-size: 27px;
   font-family: "andale mono", monospace;
   color: #22bb0a;
-  text-shadow: 2px 2px yellow;
 }
 .pf-par{
    position: relative;
@@ -907,7 +904,6 @@ left: 405px;
 font-size: 27px;
 font-family: "andale mono", monospace;
 color: #22bb0a;
-text-shadow: 2px 2px yellow;
 }
 .cp-par{
 position: relative;
@@ -925,7 +921,6 @@ bottom: 20px;
 font-family: "courier new", monospace;
 text-decoration-line: underline;
 color: #d11509;
-text-shadow: 2px 2px yellow;
 }
 .cp-img{
   width: 1000px;
@@ -984,7 +979,6 @@ left: 405px;
 font-size: 27px;
 font-family: "andale mono", monospace;
 color: #22bb0a;
-text-shadow: 2px 2px yellow;
 }
 .cv-par{
   position: relative;
@@ -997,12 +991,11 @@ color: #290b7d;
 .cv-hd4{
   position: relative;
   left: 400px;
-  font-size: 20px;
+  font-size: 22px;
   bottom: 20px;
   font-family: "new century schoolbook", serif;
   text-decoration-line: underline;
   color: #d11509;
-  text-shadow: 2px 2px yellow;
 }
 .cv-img{
   width: 1000px;
